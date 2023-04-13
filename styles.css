@@ -11,10 +11,51 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 
+.system {
+  color: #1c448f;
+}
+
 .system-title {
-  background: #1f75cb;
+  background: #13264a;
 }
 
 .system-line {
   border: 1px dashed #087cf1;
+}
+
+.system-top__title {
+  color: #1c448f;
+}
+
+.system-top__subtitle span {
+  color: #087cf1;
+}
+
+.system-region {
+  color: black;
+}
+
+.system-top__line {
+  height: 40px;
+  border-left: 1px solid #1f75cb;
+}
+
+.system-text {
+  border: 1px dashed #1f75cb;
+  color: #087cf1;
+  border-radius: 7px;
+}
+
+.system-desc {
+  width: 50%;
+  font-size: 15px;
+  background: #1f75cb;
+  padding: 5px;
+  color: white;
+}
+
+.system-top__box {
+  background: gainsboro;
+  padding: 10px;
+  border-radius: 5px;
 }
